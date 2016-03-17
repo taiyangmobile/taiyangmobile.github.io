@@ -65,7 +65,8 @@
 <meta property="og:description" content="Markdown语法">
 <meta property="og:image" content="http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png">
 <meta property="og:image" content="http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
-<meta property="og:updated_time" content="2016-03-17T07:16:50.000Z">
+<meta property="og:image" content="http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+<meta property="og:updated_time" content="2016-03-17T07:19:18.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown-教程-语法">
 <meta name="twitter:description" content="Markdown语法">
@@ -323,25 +324,29 @@
 <p>###三级标题</p>
 <p>####四级标题</p>
 <p>#####五级标题</p>
-<p>######六级标题<br>`</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>`</p>
-<hr>
+<p>######六级标题</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
 <h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>符号之后的空格不能少，-+*效果一样，但不能混合使用，因混合是嵌套列表，内容可超长</p>
-<p>- 无序列表<br>- 无序列表<br>- 无序列表<br>- 无序列表：我很长。我也很长！那比一比啊？比就比！我有这么长，你有我长吗？我有这么这么长！好吧，你赢了！</p>
+<p>`- 无序列表</p>
 <ul>
+<li>无序列表</li>
+<li>无序列表</li>
+<li>无序列表：我很长。我也很长！那比一比啊？比就比！我有这么长，你有我长吗？我有这么这么长！好吧，你赢了！`</li>
 <li>无序列表</li>
 <li>无序列表</li>
 <li>无序列表</li>
 <li>无序列表：我很长。我也很长！那比一比啊？比就比！我有这么长，你有我长吗？我有这么这么长！好吧，你赢了！</li>
 </ul>
-<p>符号之后的空格不能少，-+*效果一样，但不能混合使用，因混合是嵌套列表<br>+ 无序列表<br>+ 无序列表<br>+ 无序列表</p>
+<p>符号之后的空格不能少，-+*效果一样，但不能混合使用，因混合是嵌套列表<br>`+ 无序列表</p>
 <ul>
+<li>无序列表</li>
+<li>无序列表`</li>
 <li>无序列表</li>
 <li>无序列表</li>
 <li>无序列表</li>
 </ul>
-<p>符号之后的空格不能少，-+*效果一样，但不能混合使用，因混合是嵌套列表</p>
-<p>*无序列表<br>*无序列表<br>*无序列表</p>
+<p>符号之后的空格不能少，-+<em>效果一样，但不能混合使用，因混合是嵌套列表<br>`</em>无序列表<br><em>无序列表
+</em>无序列表`</p>
 <ul>
 <li>无序列表</li>
 <li>无序列表</li>
@@ -376,14 +381,13 @@
 <li>嵌套列表</li>
 </ul>
 <hr>
-<h3 id="文字超链：Inline方式"><a href="#文字超链：Inline方式" class="headerlink" title="文字超链：Inline方式"></a>文字超链：Inline方式</h3><p>Tooltips可省略<br>[@Taiyangmobile](<a href="http://weibo.com/mxhn" target="_blank" rel="external">http://weibo.com/mxhn</a> “联系我”)</p>
+<h3 id="文字超链：Inline方式"><a href="#文字超链：Inline方式" class="headerlink" title="文字超链：Inline方式"></a>文字超链：Inline方式</h3><p>Tooltips可省略<br><code>[@Taiyangmobile](http://weibo.com/mxhn &quot;联系我&quot;)</code></p>
 <p><a href="http://weibo.com/mxhn" title="联系我" target="_blank" rel="external">@Taiyangmobile</a></p>
 <hr>
-<h3 id="图片超链"><a href="#图片超链" class="headerlink" title="图片超链"></a>图片超链</h3><p>多个感叹号，Tooltips可省略，要设置大小只能借助HTML标记<br>![GitHub Mark](<a href="http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png" target="_blank" rel="external">http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png</a> “GitHub Mark”)</p>
+<h3 id="图片超链"><a href="#图片超链" class="headerlink" title="图片超链"></a>图片超链</h3><p>多个感叹号，Tooltips可省略，要设置大小只能借助HTML标记<br><code>![GitHub Mark](http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png &quot;GitHub Mark&quot;)</code></p>
 <p><img src="http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Mark" title="GitHub Mark"></p>
 <hr>
-<h3 id="索引超链：Reference方式"><a href="#索引超链：Reference方式" class="headerlink" title="索引超链：Reference方式"></a>索引超链：Reference方式</h3><p>索引，1 2可以是任意字符<br>[@Taiyangmobile][1]<br>![GitHub Octocat][2]</p>
-<p>[1]:<a href="http://weibo.com/mxhn" target="_blank" rel="external">http://weibo.com/mxhn</a><br>[2]:<a href="http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" target="_blank" rel="external">http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png</a></p>
+<h3 id="索引超链：Reference方式"><a href="#索引超链：Reference方式" class="headerlink" title="索引超链：Reference方式"></a>索引超链：Reference方式</h3><p>索引，1 2可以是任意字符<br>`<a href="http://weibo.com/mxhn" target="_blank" rel="external">@Taiyangmobile</a><br><img src="http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" alt="GitHub Octocat"></p>
 <p><a href="http://weibo.com/mxhn" target="_blank" rel="external">@Taiyangmobile</a><br><img src="http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" alt="GitHub Octocat"></p>
 <hr>
 <h3 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h3><p>尖括号<br><code>&lt;http://weibo.com/mxhn&gt;</code><br><a href="http://weibo.com/mxhn" target="_blank" rel="external">http://weibo.com/mxhn</a></p>

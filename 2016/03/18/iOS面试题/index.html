@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Taiyangmobile, NexT" />
+  <meta name="keywords" content="iOS,面试题," />
 
 
 
@@ -57,16 +57,22 @@
 
 
 
-<meta name="description" content="个人发牢骚吐槽备忘记事用的@.@">
+<meta name="description" content="史上最全的iOS面试题及答案iOS面试小贴士
+———————————————回答好下面的足够了————————————-
+多线程、特别是NSOperation 和 GCD 的内部原理。运行时机制的原理和运用场景。SDWebImage的原理。实现机制。如何解决TableView卡的问题。block和代理的，通知的区别。block的用法需要注意些什么。strong，weak，retain，assign">
 <meta property="og:type" content="article">
 <meta property="og:title" content="iOS面试题">
 <meta property="og:url" content="http://taiyangmobile.github.io/2016/03/18/iOS面试题/index.html">
 <meta property="og:site_name" content="Taiyangmobile">
-<meta property="og:description" content="个人发牢骚吐槽备忘记事用的@.@">
-<meta property="og:updated_time" content="2016-03-18T02:39:00.000Z">
+<meta property="og:description" content="史上最全的iOS面试题及答案iOS面试小贴士
+———————————————回答好下面的足够了————————————-
+多线程、特别是NSOperation 和 GCD 的内部原理。运行时机制的原理和运用场景。SDWebImage的原理。实现机制。如何解决TableView卡的问题。block和代理的，通知的区别。block的用法需要注意些什么。strong，weak，retain，assign">
+<meta property="og:updated_time" content="2016-03-18T02:42:40.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iOS面试题">
-<meta name="twitter:description" content="个人发牢骚吐槽备忘记事用的@.@">
+<meta name="twitter:description" content="史上最全的iOS面试题及答案iOS面试小贴士
+———————————————回答好下面的足够了————————————-
+多线程、特别是NSOperation 和 GCD 的内部原理。运行时机制的原理和运用场景。SDWebImage的原理。实现机制。如何解决TableView卡的问题。block和代理的，通知的区别。block的用法需要注意些什么。strong，weak，retain，assign">
 
 
 
@@ -270,7 +276,12 @@
       
 
       
-        
+        <h2 id="史上最全的iOS面试题及答案"><a href="#史上最全的iOS面试题及答案" class="headerlink" title="史上最全的iOS面试题及答案"></a>史上最全的iOS面试题及答案</h2><p>iOS面试小贴士</p>
+<p>———————————————回答好下面的足够了————————————-</p>
+<p>多线程、特别是NSOperation 和 GCD 的内部原理。<br>运行时机制的原理和运用场景。<br>SDWebImage的原理。实现机制。如何解决TableView卡的问题。<br>block和代理的，通知的区别。block的用法需要注意些什么。<br>strong，weak，retain，assign，copy nomatic 等的区别。<br>设计模式，mvc，单利，工厂，代理等的应用场景。<br>单利的写法。在单利中创建数组应该注意些什么。<br>NSString 的时候用copy和strong的区别。<br>响应值链。<br>NSTimer 在子线程中应该手动创建NSRunLoop ，否则不能循环执行。<br>UIScrollView和NSTimer组合做循环广告图轮播的时候有一个属性可以控制当上下滚动tableview的时候广告轮播图依然正常滚动。<br>Xcode最新的自动布局。。。这个很多公司都用。尽量自学下。<br>git ，和svn的用法。。。git的几个命令简单的记下。。。<br>友盟报错可以查到具体某一行的错误，原理是什么。<br>Instrument  可以检测 电池的耗电量、和内存的消耗。的用法。<br>动画CABaseAnimation CAKeyAni….  CATrans…..  CAGoup….    等熟悉。。<br>ARC的原理。<br>自己写过什么自定义控件就最好了。。</p>
+<p>———————————————回答好上面的足够了————————————-</p>
+<p><strong>block和</strong>weak修饰符的区别其实是挺明显的：<br>1.<strong>block不管是ARC还是MRC模式下都可以使用，可以修饰对象，还可以修饰基本数据类型。<br>2.</strong>weak只能在ARC模式下使用，也只能修饰对象（NSString），不能修饰基本数据类型（int）。<br>3.<strong>block对象可以在block中被重新赋值，</strong>weak不可以。<br> tableView 滑动卡的问题主要是因为：从缓存中或者是从本地读取图片给UIImage的时候耗费的时间。需要把下面的两句话放到子线程里面：<br>     NSData <em>imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:app.icon]]; //得到图像数据<br>    UIImage </em>image = [UIImage imageWithData:imgData]; </p>
+
       
     </div>
 
@@ -281,6 +292,14 @@
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/iOS/" rel="tag">#iOS</a>
+          
+            <a href="/tags/面试题/" rel="tag">#面试题</a>
+          
+        </div>
       
 
       
@@ -386,7 +405,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -447,7 +466,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#史上最全的iOS面试题及答案"><span class="nav-number">1.</span> <span class="nav-text">史上最全的iOS面试题及答案</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">

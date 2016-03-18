@@ -208,15 +208,30 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <div class="header <%= theme.color.about_header %>">
-            <div class="avatar-wrapper center-align">
-                <img class="avatar-image circle responsive-img" src="" alt="User Avatar">
+  <div class="container main-container">
+    <div class="card about-page row">
+      <div class="header <%= theme.color.about_header %>">
+                <div class="avatar-wrapper center-align">
+                    <img class="avatar-image circle responsive-img" src="" alt="User Avatar">
+                </div>
+                <div class="info center-align">
+                    <p class="name">aaa</p>
+                    <p class="desc">bbb</p>
+                </div>
+      </div>
+       <article>
+            <div class="card-content">
+                <section class="about-me">
+                    <h1 class="<%= theme.color.about_title %>-text">
+                        <i class="fa fa-street-view"></i>关于</h1>
+                    <div class="entry <%= theme.color.link %>-link-context">
+                        <%- item.content %>
+                    </div>
+                </section>
             </div>
-            <div class="info center-align">
-                <p class="name">aaa</p>
-                <p class="desc">bbb</p>
-            </div>
+        </article>
     </div>
+  </div>  
   <div id="posts" class="posts-expand">
     
     

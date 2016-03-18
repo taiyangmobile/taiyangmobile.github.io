@@ -1,0 +1,76 @@
+.about-page .header {
+  padding: 40px 15px 30px;
+}
+.about-page .avatar-wrapper .avatar-image {
+  width: 160px;
+}
+.about-page .info {
+  padding: 0 20px;
+}
+.about-page .info p {
+  line-height: 24px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px #444;
+}
+.about-page .info .name {
+  font-size: 1.8em;
+}
+.about-page .info .desc {
+  margin-top: 15px;
+  font-size: 1em;
+}
+.about-page .social-group {
+  margin-top: 15px;
+}
+.about-page section {
+  margin-bottom: 20px;
+}
+.about-page h1 {
+  font-size: 1.6rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.about-page ul.skill-list,
+.about-page ul.skill-list li {
+  list-style-type: none;
+}
+.about-page ul.skill-list {
+  padding-left: 0;
+}
+.about-page .skill-list li {
+  margin-bottom: 0;
+}
+.about-page .split {
+  margin-top: 5px;
+}
+.about-page .skills .fa {
+  margin-right: 0;
+}
+.about-page .project-item {
+  display: inline-block;
+  width: 100%;
+}
+.about-page .project-item img {
+  padding: 0;
+}
+.about-page .project-item .card-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #000;
+  line-height: 30px;
+}
+.about-page .project-item .card-tag {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.about-page.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.about-page.row .row {
+  margin-left: 0;
+  margin-right: 0;
+}

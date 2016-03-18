@@ -67,14 +67,14 @@
 <meta property="og:description" content="史上最全的iOS面试题及答案iOS面试小贴士
 ———————————————回答好下面的足够了————————————-
 多线程、特别是NSOperation 和 GCD 的内部原理。运行时机制的原理和运用场景。SDWebImage的原理。实现机制。如何解决TableView卡的问题。block和代理的，通知的区别。block的用法需要注意些什么。strong，weak，retain，assign">
-<meta property="og:image" content="http://taiyangmobile.github.io/"http://img.my.csdn.net/uploads/201209/23/1348412756_8445.png"">
-<meta property="og:updated_time" content="2016-03-18T02:52:26.000Z">
+<meta property="og:image" content="http://img.my.csdn.net/uploads/201209/23/1348412756_8445.png">
+<meta property="og:updated_time" content="2016-03-18T02:54:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iOS面试题">
 <meta name="twitter:description" content="史上最全的iOS面试题及答案iOS面试小贴士
 ———————————————回答好下面的足够了————————————-
 多线程、特别是NSOperation 和 GCD 的内部原理。运行时机制的原理和运用场景。SDWebImage的原理。实现机制。如何解决TableView卡的问题。block和代理的，通知的区别。block的用法需要注意些什么。strong，weak，retain，assign">
-<meta name="twitter:image" content="http://taiyangmobile.github.io/"http://img.my.csdn.net/uploads/201209/23/1348412756_8445.png"">
+<meta name="twitter:image" content="http://img.my.csdn.net/uploads/201209/23/1348412756_8445.png">
 
 
 
@@ -322,7 +322,9 @@ UIImage *image = [UIImage imageWithData:imgData];
          });  
     }
 });
-</code></pre><p>运行显示：<br><img src="&quot;http://img.my.csdn.net/uploads/201209/23/1348412756_8445.png&quot;" alt="效果" title="效果"><br>是不是代码比NSThread  NSOperation简洁很多，而且GCD会自动根据任务在多核处理器上分配资源，优化程序。<br>系统给每一个应用程序提供了三个concurrent dispatch queues。这三个并发调度队列是全局的，它们只有优先级的不同。因为是全局的，我们不需要去创建。我们只需要通过使用函数dispath_get_global_queue去得到队列，如下：</p>
+</code></pre><p>运行显示：</p>
+<p><img src="http://img.my.csdn.net/uploads/201209/23/1348412756_8445.png" alt="效果" title="效果"></p>
+<p>是不是代码比NSThread  NSOperation简洁很多，而且GCD会自动根据任务在多核处理器上分配资源，优化程序。<br>系统给每一个应用程序提供了三个concurrent dispatch queues。这三个并发调度队列是全局的，它们只有优先级的不同。因为是全局的，我们不需要去创建。我们只需要通过使用函数dispath_get_global_queue去得到队列，如下：</p>
 <pre><code>dispatch_queue_t globalQ = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);    
 </code></pre><p>这里也用到了系统默认就有一个串行队列main_queue</p>
 <pre><code>dispatch_queue_t mainQ = dispatch_get_main_queue();    

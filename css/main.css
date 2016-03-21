@@ -1513,7 +1513,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff7061;
+  background: #14201c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2424,6 +2424,10 @@ body {
   .post-body {
     text-align: justify;
   }
+}
+.a {
+  border-bottom: 0px solid #999;
+  text-decoration: none;
 }
 .about-page .project-item .card-title {
   font-weight: 400;

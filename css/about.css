@@ -1,3 +1,7 @@
+.a {
+  border-bottom: 0px solid #999;
+  text-decoration: none;
+}
 .about-page .project-item .card-title {
   font-weight: 400;
   font-size: 20px;

@@ -1513,7 +1513,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #42ffb8;
+  background: #73e21b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2424,24 +2424,6 @@ body {
   .post-body {
     text-align: justify;
   }
-}
-.row .col.l10 {
-  width: 83.3333333333%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
-}
-.row .col.m9 {
-  width: 75%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
-}
-.row .col.s8 {
-  width: 66.6666666667%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
 }
 .hide {
   display: none !important;

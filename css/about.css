@@ -50,6 +50,7 @@
 }
 .about-page .project-item {
   display: inline-block;
+  margin-right: 20px;
   width: 45%;
 }
 .about-page .project-item img {

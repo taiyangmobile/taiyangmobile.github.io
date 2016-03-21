@@ -50,7 +50,7 @@
 }
 .about-page .project-item {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 25px;
   width: 45%;
 }
 .about-page .project-item img {
@@ -63,7 +63,7 @@
   line-height: 30px;
 }
 .about-page .project-item .card-tag {
-  position: absolute;
+  position: relative;
   top: 15px;
   right: 10px;
 }

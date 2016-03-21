@@ -1513,7 +1513,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1159e7;
+  background: #ffd2ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2477,7 +2477,7 @@ body {
 }
 .about-page .project-item {
   display: inline-block;
-  width: 100%;
+  width: 45%;
 }
 .about-page .project-item img {
   padding: 0;

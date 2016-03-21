@@ -50,7 +50,7 @@
 }
 .about-page .project-item {
   display: inline-block;
-  width: 100%;
+  width: 45%;
 }
 .about-page .project-item img {
   padding: 0;

@@ -1513,7 +1513,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #415bff;
+  background: #7e38ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2442,24 +2442,6 @@ body {
   margin-left: auto;
   left: auto;
   right: auto;
-}
-.row .col {
-  float: left;
-  box-sizing: border-box;
-  padding: 0 0.75rem;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-.container .row {
-  margin-left: auto;
-  margin-right: auto;
-}
-.container .row {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
 }
 .row {
   margin-left: auto;

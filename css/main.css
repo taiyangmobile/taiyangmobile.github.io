@@ -1513,7 +1513,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffbaff;
+  background: #694fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2424,6 +2424,120 @@ body {
   .post-body {
     text-align: justify;
   }
+}
+.red-link-context a {
+  color: #f44336 !important;
+}
+.red-link-context a:hover {
+  color: #e57373 !important;
+}
+.pink-link-context a {
+  color: #e91e63 !important;
+}
+.pink-link-context a:hover {
+  color: #f06292 !important;
+}
+.purple-link-context a {
+  color: #9c27b0 !important;
+}
+.purple-link-context a:hover {
+  color: #ba68c8 !important;
+}
+.deep-purple-link-context a {
+  color: #673ab7 !important;
+}
+.deep-purple-link-context a:hover {
+  color: #9575cd !important;
+}
+.indigo-link-context a {
+  color: #3f51b5 !important;
+}
+.indigo-link-context a:hover {
+  color: #7986cb !important;
+}
+.blue-link-context a {
+  color: #2196f3 !important;
+}
+.blue-link-context a:hover {
+  color: #64b5f6 !important;
+}
+.light-blue-link-context a {
+  color: #03a9f4 !important;
+}
+.light-blue-link-context a:hover {
+  color: #4fc3f7 !important;
+}
+.cyan-link-context a {
+  color: #00bcd4 !important;
+}
+.cyan-link-context a:hover {
+  color: #4dd0e1 !important;
+}
+.teal-link-context a {
+  color: #009688 !important;
+}
+.teal-link-context a:hover {
+  color: #4db6ac !important;
+}
+.green-link-context a {
+  color: #4caf50 !important;
+}
+.green-link-context a:hover {
+  color: #81c784 !important;
+}
+.light-green-link-context a {
+  color: #8bc34a !important;
+}
+.light-green-link-context a:hover {
+  color: #aed581 !important;
+}
+.lime-link-context a {
+  color: #cddc39 !important;
+}
+.lime-link-context a:hover {
+  color: #dce775 !important;
+}
+.yellow-link-context a {
+  color: #ffeb3b !important;
+}
+.yellow-link-context a:hover {
+  color: #fff176 !important;
+}
+.amber-link-context a {
+  color: #ffc107 !important;
+}
+.amber-link-context a:hover {
+  color: #ffd54f !important;
+}
+.orange-link-context a {
+  color: #ff9800 !important;
+}
+.orange-link-context a:hover {
+  color: #ffb74d !important;
+}
+.deep-orange-link-context a {
+  color: #ff5722 !important;
+}
+.deep-orange-link-context a:hover {
+  color: #ff8a65 !important;
+}
+.brown-link-context a {
+  color: #795548 !important;
+}
+.brown-link-context a:hover {
+  color: #a1887f !important;
+}
+.grey-link-context a {
+  color: #9e9e9e !important;
+}
+.grey-link-context a:hover {
+  color: #e0e0e0 !important;
+}
+.blue-grey-link-context a {
+  color: #607d8b !important;
+}
+.blue-grey-link-context a:hover {
+  color: #90a4ae !important;
 }
 .about-page .header {
   padding: 40px 15px 30px;

@@ -1,3 +1,6 @@
+.card .card-image {
+  position: relative;
+}
 .orange.lighten-1 {
   background-color: #ffa726 !important;
 }

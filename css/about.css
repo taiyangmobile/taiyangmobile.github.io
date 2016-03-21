@@ -63,7 +63,7 @@
   line-height: 30px;
 }
 .about-page .project-item .card-tag {
-  position: relative;
+  position: absolute;
   top: 15px;
   right: 10px;
 }

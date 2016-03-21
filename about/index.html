@@ -211,13 +211,22 @@
   <div class="container main-container">
     <div class="card about-page row">
       <div >
-                <div class="avatar-wrapper left-align">
+                <div class="avatar-wrapper center-align">
                     <img class="avatar-image circle responsive-img" src="/images/avtar.jpg" alt="用户头像">
                 </div>
                 <div class="info center-align">
                     <p class="name">孙建伟</p>
                     <p class="desc">你的简介（建议一两句话）</p>
                 </div>
+               <% if (site.data.about.link && site.data.about.link.social) { %>
+                <div class="social-group center-align">
+                    <% for (var type in site.data.about.link.social) { %>
+                        <a class="social-link" href="<%= site.data.about.link.social[type] %>" target="_blank">
+                            <i class="fa fa-2x fa-<%= type %>"></i>
+                        </a>
+                    <% } %>
+                </div>
+            <% } %>
       </div>
        <article>
             <div class="card-content">

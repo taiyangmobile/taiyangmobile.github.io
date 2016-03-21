@@ -1513,7 +1513,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fbc849;
+  background: #3dff67;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2424,6 +2424,32 @@ body {
   .post-body {
     text-align: justify;
   }
+}
+.orange.lighten-1 {
+  background-color: #ffa726 !important;
+}
+.chip {
+  height: initial;
+  line-height: 18px;
+  padding: 4px 14px;
+  color: #fff;
+}
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0,0,0,0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+}
+.white-text {
+  color: #fff !important;
+}
+.orange {
+  background-color: #ff9800 !important;
 }
 .hide {
   display: none !important;

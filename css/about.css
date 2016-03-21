@@ -16,11 +16,6 @@
   left: auto;
   right: auto;
 }
-.row {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-}
 .hide {
   display: none !important;
 }

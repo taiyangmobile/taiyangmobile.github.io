@@ -1513,7 +1513,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a436d9;
+  background: #738874;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2424,6 +2424,19 @@ body {
   .post-body {
     text-align: justify;
   }
+}
+.container .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 .hide {
   display: none !important;

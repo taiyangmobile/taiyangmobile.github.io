@@ -969,7 +969,7 @@ pre .javascript .function {
   display: inline-block;
   margin: 0 10px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .menu .menu-item {
     margin-top: 10px;
   }
@@ -1513,7 +1513,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff4e1c;
+  background: #fb6f7a;
 }
 .links-of-blogroll {
   font-size: 13px;
